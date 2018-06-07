@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <html>
+   <head>
+       <meta charset="utf-8">
+       <title>Gio's Final</title>
+       <script type="text/javascript" src = "script.js"></script>
+       <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+     <header>
+        <h1>Let's Create an ID card!</h1>
+     </header>
+     <article>
+      <form>
+        <label for="first">First Name:</label><br>
+        <input type="text" id="first" name="firstName">
+        <br>
+       
+        <label for="last">Last Name:</label><br>
+        <input type="text" id="last" name="lastName">
+        <br>
+       
+        <label for="Age">Age</label><br>
+        <input type="text" id="Age" name="age">
+        <br> 
+       
+        <label for="phone">Phone Number</label><br>
+        <input type="text" id="phone" name="phoneNumber">
+        <br> 
+       
+        <label for="Address">Address</label><br>
+        <input type="text" id="Address" name="address">
+        <br>
+        <input type="submit" value="Get ID card" onclick="idCard()">
+      </form>
+      
+     </article>
+      
+
+      <div id="idCard">
+          <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+          <p id="postFullName"></p>
+          <p id="postAge"></p>
+          <p id="postPhoneNumber"></p>
+          <p id="postAddress"></p>
+
+      </div>
+
+    </body>
+    
+  </html>

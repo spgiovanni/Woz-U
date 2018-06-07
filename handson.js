@@ -1,0 +1,1 @@
+let firstName = (firstName === "John") ? document.getElementById("demo").innerHTML = "Hello John!" : document.getElementById("demo").innerHTML = "Hello Human!";

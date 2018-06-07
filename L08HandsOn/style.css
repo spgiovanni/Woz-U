@@ -1,0 +1,22 @@
+body{
+    background-image: url("images/codeBG.jpg");
+    opacity: 0.5 ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 99%;
+    height: 1000px;
+    display: block;
+    position: relative;
+    color: #f30909;
+    font-weight: 900;
+}
+
+
+
+.container{
+   display: flex;
+   justify-content: center; 
+}
+
